@@ -15,7 +15,7 @@ public class MyApplication extends ResourceConfig {
 
 	@Inject
 	public MyApplication(ServiceLocator serviceLocator) {
-		packages("com.example.jersey");
+		packages("net.ludeke.rest.jersey");
 
 		System.out.println("Registering injectables...");
 
